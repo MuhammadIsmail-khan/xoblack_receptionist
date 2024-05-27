@@ -55,7 +55,7 @@ pypiwin32==223
 python-dateutil==2.9.0.post0
 pyttsx3==2.90
 pytz==2024.1
-pywin32==306
+pywin32
 referencing==0.34.0
 requests==2.31.0
 rich==13.7.1
