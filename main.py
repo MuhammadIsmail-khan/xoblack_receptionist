@@ -130,10 +130,10 @@ def recognize_speech():
         st.write("Request failed; {0}".format(e))
     return None
 
-def convert_text_to_speech(text):
-    engine = pyttsx3.init()
-    engine.say(text)
-    engine.runAndWait()
+# def convert_text_to_speech(text):
+#     engine = pyttsx3.init()
+#     engine.say(text)
+#     engine.runAndWait()
 
 
 def show_table():
@@ -166,7 +166,8 @@ def main():
                     st.text(i)
             else:
                 st.text(str(response))
-            convert_text_to_speech(response)
+            st.write(response)
+            # convert_text_to_speech(response)
         
     
 
