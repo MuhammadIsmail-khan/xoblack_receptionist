@@ -53,7 +53,6 @@ pyparsing==3.1.2
 python-dateutil==2.9.0.post0
 pyttsx3==2.90
 pytz==2024.1
-PyAudio==0.2.14
 referencing==0.34.0
 requests==2.31.0
 rich==13.7.1
